@@ -175,7 +175,297 @@ Then verify the Flutter Android project still contains:
 - `include(":unityLibrary")` in `android/settings.gradle.kts`
 - `implementation(project(":unityLibrary"))` in `android/app/build.gradle.kts`
 
-### 6. Build the Host App
+### 6. Normalize the Exported Gradle Files
+
+Before building inside the Flutter host app, make sure these exported Gradle files match the working versions used by MyBuddy:
+
+- `android/unityLibrary/build.gradle`
+- `android/launcher/build.gradle`
+
+In practice, the safest workflow is to replace the Unity-exported files with the known-good MyBuddy versions after each export.
+
+Users should be able to copy and paste these files directly.
+
+#### `android/launcher/build.gradle`
+
+```groovy
+apply plugin: 'com.android.application'
+
+dependencies {
+  implementation project(':unityLibrary')
+  }
+
+android {
+  namespace "com.UnityTechnologies.com.unity.template.urpblank"
+
+  compileSdkVersion 36
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
+  }
+
+  defaultConfig {
+    minSdkVersion 24
+    targetSdkVersion 36
+    applicationId 'com.UnityTechnologies.com.unity.template.urpblank'
+    ndk {
+      abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+    }
+    versionCode 1
+    versionName '0.1.0'
+  }
+
+  androidResources {
+    noCompress += ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+  }
+
+  lint { abortOnError false }
+
+  buildTypes {
+    debug {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt')
+      signingConfig signingConfigs.debug
+      jniDebuggable true
+    }
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt')
+      signingConfig signingConfigs.debug
+    }
+  }
+
+  packaging {
+    jniLibs {
+      keepDebugSymbols += ['*/armeabi-v7a/*.so', '*/arm64-v8a/*.so', '*/x86/*.so', '*/x86_64/*.so']
+      useLegacyPackaging = true
+    }
+  }
+
+  bundle {
+    language {
+      enableSplit = false
+    }
+    density {
+      enableSplit = false
+    }
+    abi {
+      enableSplit = true
+    }
+  }
+}
+```
+
+#### `android/unityLibrary/build.gradle`
+
+```groovy
+apply plugin: 'com.android.library'
+
+
+dependencies {
+  api fileTree(dir: 'libs', include: ['*.jar'])
+
+}
+
+android {
+  namespace "com.unity3d.player"
+
+  compileSdkVersion 36
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
+  }
+
+  defaultConfig {
+    minSdkVersion 24
+    targetSdkVersion 36
+    ndk {
+      abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+    }
+    versionCode 1
+    versionName '0.1.0'
+    consumerProguardFiles 'proguard-unity.txt'
+  }
+
+  lint {
+    abortOnError false
+  }
+
+  androidResources {
+    noCompress += ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+  }
+
+  packaging {
+    jniLibs {
+      keepDebugSymbols += ['*/armeabi-v7a/*.so', '*/arm64-v8a/*.so']
+      useLegacyPackaging = true
+    }
+  }
+}
+
+def getSdkDir() {
+  Properties local = new Properties()
+  local.load(new FileInputStream("${rootDir}/local.properties"))
+  return local.getProperty('sdk.dir')
+}
+
+def BuildIl2Cpp(String workingDir, String configuration, String architecture, String abi, String[] staticLibraries) {
+  file(workingDir + "/src/main/jniLibs/" + abi).mkdirs()
+  file(workingDir + "/symbols/" + abi).mkdirs()
+
+  def commandLineArgs = []
+  commandLineArgs.add("--compile-cpp")
+  commandLineArgs.add("--platform=Android")
+  commandLineArgs.add("--architecture=" + architecture)
+  commandLineArgs.add("--outputpath=" + workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.so")
+  commandLineArgs.add("--baselib-directory=" + workingDir + "/src/main/jniStaticLibs/" + abi)
+  commandLineArgs.add("--incremental-g-c-time-slice=3")
+  commandLineArgs.add("--configuration=" + configuration)
+  commandLineArgs.add("--dotnetprofile=unityaot-linux")
+  commandLineArgs.add("--profiler-report")
+  commandLineArgs.add("--profiler-output-file=" + workingDir + "/build/il2cpp_"+ abi + "_" + configuration + "/il2cpp_conv.traceevents")
+  commandLineArgs.add("--print-command-line")
+  commandLineArgs.add("--data-folder=" + workingDir + "/src/main/Il2CppOutputProject/Source/il2cppOutput/data")
+  commandLineArgs.add("--generatedcppdir=" + workingDir + "/src/main/Il2CppOutputProject/Source/il2cppOutput")
+  commandLineArgs.add("--cachedirectory=" + workingDir + "/build/il2cpp_"+ abi + "_" + configuration + "/il2cpp_cache")
+  commandLineArgs.add("--tool-chain-path=" + android.ndkDirectory)
+  staticLibraries.eachWithIndex {fileName, i->
+    commandLineArgs.add("--additional-libraries=" + workingDir + "/src/main/jniStaticLibs/" + abi + "/" + fileName)
+  }
+  def executableExtension = ""
+  if (org.gradle.internal.os.OperatingSystem.current().isWindows()) {
+    executableExtension = ".exe"
+    commandLineArgs = commandLineArgs*.replace('\"', '\\\"')
+  }
+  exec {
+    executable workingDir + "/src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp" + executableExtension
+    args commandLineArgs
+    environment "ANDROID_SDK_ROOT", getSdkDir()
+  }
+  delete workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.sym.so"
+
+  def dbgSo = file(workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.dbg.so")
+  if (dbgSo.exists()) {
+    ant.move(file: dbgSo, tofile: workingDir + "/symbols/" + abi + "/libil2cpp.so")
+  }
+}
+
+android {
+  afterEvaluate {
+    // If IL2CPP libs are missing, auto-generate them during the build.
+    // You can force this behavior with: -PunityRebuildIl2Cpp=true
+    def workingDir = projectDir.toString().replaceAll('\\\\', '/')
+    def requested = project.hasProperty('unityRebuildIl2Cpp') &&
+        project.property('unityRebuildIl2Cpp').toString().toBoolean()
+
+    def abis = ['armeabi-v7a': 'armv7', 'arm64-v8a': 'arm64', 'x86': 'x86', 'x86_64': 'x64']
+    def missingAny = abis.keySet().any { abi ->
+      !file(workingDir + "/src/main/jniLibs/" + abi + "/libil2cpp.so").exists()
+    }
+    def enableIl2CppBuild = requested || missingAny
+    if (!enableIl2CppBuild) return
+
+    def registerIl2CppTask = { String taskName, String configuration ->
+      tasks.register(taskName) {
+        doLast {
+          abis.each { abi, arch ->
+            BuildIl2Cpp(workingDir, configuration, arch, abi, [  ] as String[])
+          }
+        }
+      }
+    }
+
+    registerIl2CppTask('BuildIl2CppDebug', 'Debug')
+    registerIl2CppTask('BuildIl2CppRelease', 'Release')
+
+    if (project(':unityLibrary').tasks.findByName('mergeDebugJniLibFolders')) {
+      project(':unityLibrary').mergeDebugJniLibFolders.dependsOn tasks.named('BuildIl2CppDebug')
+    }
+    if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders')) {
+      project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn tasks.named('BuildIl2CppRelease')
+    }
+  }
+  sourceSets {
+    main {
+      jni.srcDirs = ["src/main/Il2CppOutputProject"]
+    }
+  }
+}
+```
+
+The `unityLibrary` Gradle file should keep the MyBuddy IL2CPP build flow, including:
+
+- `compileSdkVersion 36`
+- Java 11 compile options
+- ABI filters for `armeabi-v7a`, `arm64-v8a`, `x86`, and `x86_64`
+- the `BuildIl2Cpp` helper and `BuildIl2CppDebug` / `BuildIl2CppRelease` task registration
+- the `afterEvaluate` block that rebuilds IL2CPP outputs when native libraries are missing or when `-PunityRebuildIl2Cpp=true` is passed
+
+The `launcher` Gradle file should also stay aligned with the known-good MyBuddy version, including:
+
+- `compileSdkVersion 36`
+- Java 11 compile options
+- `implementation project(':unityLibrary')`
+- matching ABI filters
+- packaging rules that preserve JNI debug symbols
+
+If Unity regenerates these files differently, do not assume the new export is safe. Compare and restore them to the expected MyBuddy versions first.
+
+### 7. Build the Unity Library in the Flutter Host App
+
+From the Flutter repository's `android/` directory, build the Unity library directly:
+
+```powershell
+.\gradlew.bat :unityLibrary:assembleRelease
+```
+
+After that command completes, copy the generated `.so` files into:
+
+```text
+android/app/src/main/jniLibs/
+```
+
+Copy the ABI-specific native libraries so the Flutter host app can package the final Unity runtime correctly.
+
+If the folders do not already exist under `android/app/src/main/jniLibs/`, create the ABI directories and place the matching `.so` outputs there.
+
+Example structure:
+
+```text
+android/
+  app/
+    src/
+      main/
+        jniLibs/
+          armeabi-v7a/
+            lib_burst_generated.so
+            libil2cpp.so
+            libmain.so
+            libunity.so
+          arm64-v8a/
+            lib_burst_generated.so
+            libil2cpp.so
+            libmain.so
+            libunity.so
+          x86/
+            lib_burst_generated.so
+            libil2cpp.so
+            libmain.so
+            libunity.so
+          x86_64/
+            lib_burst_generated.so
+            libil2cpp.so
+            libmain.so
+            libunity.so
+```
+
+At minimum, make sure each ABI folder contains the Unity native libraries required by your export. If Unity produces more `.so` files for your setup, copy those alongside the files above instead of leaving the ABI folder incomplete.
+
+### 8. Build the Host App
 
 From the Flutter repository:
 
@@ -196,7 +486,7 @@ On Windows:
 .\gradlew.bat app:assembleDebug
 ```
 
-### 7. IL2CPP Notes
+### 9. IL2CPP Notes
 
 The embedded `unityLibrary` Gradle build in the Flutter app is configured to auto-generate IL2CPP libraries if native outputs are missing.
 
@@ -211,6 +501,8 @@ On Windows:
 ```powershell
 .\gradlew.bat :unityLibrary:assembleRelease -PunityRebuildIl2Cpp=true
 ```
+
+If you use this forced rebuild path, repeat the `.so` copy step into `android/app/src/main/jniLibs/` after the command finishes.
 
 ---
 
