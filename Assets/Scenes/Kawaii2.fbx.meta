@@ -1,0 +1,3022 @@
+fileFormatVersion: 2
+guid: 096c050969dbb5647b8018bc2d81313e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'SadIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'HotIdle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'BoringIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'BugIdle' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'OffensiveIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'StandingIdle' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'SittingIdle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'ChickenDance' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Dancing1' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'Dancing2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Spin' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'Dancing3' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Thinking' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'StandGreeting' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Talking1' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'Talking2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Talking3' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'Thankful' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'StartPlank' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'PushUp' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'AngryIdle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'Clapping' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'spine.004' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'Front Hair .006' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|AngryIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|BoringIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|BugIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|ChickenDance' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|ChickenDanceFast' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Clapping' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|Dancing1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Dancing2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|Dancing3' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|HotIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|Jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Jump1' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|mixamo.com' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|OffensiveIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|PushUp' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|SadIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|SittingIdle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Spin' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|StandGreeting' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|StandingIdle' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|StartPlank' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Talking1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|Talking2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Talking3' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'metarig|Thankful' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'spine.004'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Front
+      Hair .006' is inbetween humanoid transforms and has rotation animation that
+      will be discarded.\n\nClip 'metarig|Thinking' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'spine.004' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Front Hair .006' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SadIdle
+      takeName: SadIdle
+      internalID: 7556904929827058005
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HotIdle
+      takeName: HotIdle
+      internalID: -2646829203676445575
+      firstFrame: 0
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BoringIdle
+      takeName: BoringIdle
+      internalID: 194934384305871196
+      firstFrame: 0
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      internalID: 5539831331247536789
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BugIdle
+      takeName: BugIdle
+      internalID: -9037355822602605416
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OffensiveIdle
+      takeName: OffensiveIdle
+      internalID: 907219152442824089
+      firstFrame: 0
+      lastFrame: 317
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StandingIdle
+      takeName: StandingIdle
+      internalID: 5002009348692537066
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SittingIdle
+      takeName: SittingIdle
+      internalID: -896945560358656249
+      firstFrame: 0
+      lastFrame: 287
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChickenDance
+      takeName: ChickenDance
+      internalID: -5704169187340319889
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dancing1
+      takeName: Dancing1
+      internalID: -324779130520009011
+      firstFrame: 0
+      lastFrame: 247
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dancing2
+      takeName: Dancing2
+      internalID: -1119359667396907336
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spin
+      takeName: Spin
+      internalID: -6333163131637793548
+      firstFrame: 0
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dancing3
+      takeName: Dancing3
+      internalID: 964219193665876732
+      firstFrame: 0
+      lastFrame: 659
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Thinking
+      takeName: Thinking
+      internalID: -7895031503555114938
+      firstFrame: 0
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StandGreeting
+      takeName: StandGreeting
+      internalID: 4816921424242415886
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talking1
+      takeName: Talking1
+      internalID: 6529439430622011247
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talking2
+      takeName: Talking2
+      internalID: -5081029272903390141
+      firstFrame: 0
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Talking3
+      takeName: Talking3
+      internalID: 4094767172219083489
+      firstFrame: 0
+      lastFrame: 308
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Thankful
+      takeName: Thankful
+      internalID: -3718950630305641405
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StartPlank
+      takeName: StartPlank
+      internalID: 4570822089232030553
+      firstFrame: 0
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PushUp
+      takeName: PushUp
+      internalID: 7371119645906579548
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AngryIdle
+      takeName: AngryIdle
+      internalID: -233572299042085057
+      firstFrame: 0
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Clapping
+      takeName: Clapping
+      internalID: -8723385505276923084
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|AngryIdle
+      takeName: metarig|AngryIdle
+      internalID: -4018053746005259283
+      firstFrame: 0
+      lastFrame: 575
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|BoringIdle
+      takeName: metarig|BoringIdle
+      internalID: -7675595648251657229
+      firstFrame: 0
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|BugIdle
+      takeName: metarig|BugIdle
+      internalID: 544522378826077844
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|ChickenDance
+      takeName: metarig|ChickenDance
+      internalID: 2319827064025806920
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|ChickenDanceFast
+      takeName: metarig|ChickenDanceFast
+      internalID: 5537452285458158778
+      firstFrame: 0
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Clapping
+      takeName: metarig|Clapping
+      internalID: 9132230915537030331
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Dancing1
+      takeName: metarig|Dancing1
+      internalID: 4724269573184488104
+      firstFrame: 0
+      lastFrame: 247
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Dancing2
+      takeName: metarig|Dancing2
+      internalID: -4180035735996673506
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Dancing3
+      takeName: metarig|Dancing3
+      internalID: -128143677622365092
+      firstFrame: 0
+      lastFrame: 659
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|HotIdle
+      takeName: metarig|HotIdle
+      internalID: 8321126515491377754
+      firstFrame: 0
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Jump
+      takeName: metarig|Jump
+      internalID: 3819204733282340162
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Jump1
+      takeName: metarig|Jump1
+      internalID: 740281860904491373
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|mixamo.com
+      takeName: metarig|mixamo.com
+      internalID: 2483366514323855543
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|OffensiveIdle
+      takeName: metarig|OffensiveIdle
+      internalID: -5950642110029935991
+      firstFrame: 0
+      lastFrame: 317
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|PushUp
+      takeName: metarig|PushUp
+      internalID: -7631390659023548545
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|SadIdle
+      takeName: metarig|SadIdle
+      internalID: -586156108750769920
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|SittingIdle
+      takeName: metarig|SittingIdle
+      internalID: 3431601185043116999
+      firstFrame: 0
+      lastFrame: 287
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Spin
+      takeName: metarig|Spin
+      internalID: 7082214621024976425
+      firstFrame: 0
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|StandGreeting
+      takeName: metarig|StandGreeting
+      internalID: 1181230692050272172
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|StandingIdle
+      takeName: metarig|StandingIdle
+      internalID: -2545509720817526029
+      firstFrame: 0
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|StartPlank
+      takeName: metarig|StartPlank
+      internalID: 5010892069515998455
+      firstFrame: 0
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Talking1
+      takeName: metarig|Talking1
+      internalID: 5623308057271454388
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Talking2
+      takeName: metarig|Talking2
+      internalID: -132246264214536164
+      firstFrame: 0
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Talking3
+      takeName: metarig|Talking3
+      internalID: -5834075864345894636
+      firstFrame: 0
+      lastFrame: 308
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Thankful
+      takeName: metarig|Thankful
+      internalID: -8993283376266904582
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: metarig|Thinking
+      takeName: metarig|Thinking
+      internalID: -603971207722760285
+      firstFrame: 0
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: spine
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.001
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.002
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eye R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Front Hair .007
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.02.L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.03.L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.02.L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.03.L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.01.R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.02.R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb.03.R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.01.R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.02.R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index.03.R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.01.R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.02.R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle.03.R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.01.R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.02.R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring.03.R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.01.R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.02.R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky.03.R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine.003
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Kawaii2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye Line
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyebrows
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelashes
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyes
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.009433299, y: 0.68908995, z: 0.724494, w: -0.013211048}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Hair
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Headband
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jean shorts
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Low-heeled mules
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nose Line
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder Bag
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: T-Shirt
+      parentName: Kawaii2(Clone)
+      position: {x: 0.0050123516, y: -0.030979753, z: -0.057330158}
+      rotation: {x: 0.0094333, y: 0.68908995, z: 0.724494, w: -0.013211047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: metarig
+      parentName: Kawaii2(Clone)
+      position: {x: -0.041494902, y: -0.009283483, z: -0.09939719}
+      rotation: {x: 0.03370632, y: 0.668467, z: 0.74297005, w: -0.0033560086}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: spine
+      parentName: metarig
+      position: {x: -2.013762e-15, y: 0.036857035, z: 0.86987275}
+      rotation: {x: -0.032108594, y: -0.75578153, z: -0.65403414, w: -0.0016568383}
+      scale: {x: 1.0000026, y: 1, z: 1.000002}
+    - name: spine.001
+      parentName: spine
+      position: {x: 4.0090578e-15, y: 0.07740769, z: -0.000000059604645}
+      rotation: {x: -0.12347691, y: -0.00000019837168, z: 0.000000017695127, w: 0.9923475}
+      scale: {x: 1.0000086, y: 1.0000014, z: 1.0000106}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: -7.2759576e-10, y: 0.12202258, z: 0.00000003304376}
+      rotation: {x: -0.026104417, y: 0.00000010002001, z: 0.0000000064077357, w: 0.9996593}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: 0.0000000026775524, y: 0.13074507, z: 0.000000037973223}
+      rotation: {x: -0.105189934, y: 0.00000020136031, z: -0.000000007085328, w: 0.99445224}
+      scale: {x: 1.0000143, y: 0.99999666, z: 1.0000142}
+    - name: spine.004
+      parentName: spine.003
+      position: {x: 0.0000000027939677, y: 0.16463694, z: 0.00000006359187}
+      rotation: {x: -0.057504304, y: -0.00000008396217, z: -0.000000011514341, w: 0.99834526}
+      scale: {x: 0.99999565, y: 0.99999666, z: 1.0000011}
+    - name: Neck
+      parentName: spine.004
+      position: {x: -0.0000000011641532, y: 0.039330274, z: -0.00000006527989}
+      rotation: {x: 0.22570235, y: -0.00000018630084, z: -0.000000026019176, w: 0.9741963}
+      scale: {x: 1, y: 1.0000272, z: 0.9999679}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.000000004656613, y: 0.05944247, z: -0.00000015704427}
+      rotation: {x: 0.070681624, y: 0.000000018038461, z: -0.00000001734711, w: 0.997499}
+      scale: {x: 1.0000055, y: 0.9999898, z: 1.0000168}
+    - name: Side Hair L
+      parentName: Head
+      position: {x: -0.10318047, y: 0.09689554, z: -0.0009425045}
+      rotation: {x: 0.48751053, y: 0.05307428, z: 0.87141615, w: 0.012270837}
+      scale: {x: 1.000006, y: 1.0000108, z: 1.0000696}
+    - name: Side Hair L.001
+      parentName: Side Hair L
+      position: {x: -0.000000007450581, y: 0.042618528, z: 0.000000037252903}
+      rotation: {x: 0.12651536, y: 0.0005100139, z: 0.006514993, w: 0.9919431}
+      scale: {x: 1.0000021, y: 1.0000068, z: 0.9999972}
+    - name: Side Hair L.002
+      parentName: Side Hair L.001
+      position: {x: -0.000000063329935, y: 0.04035519, z: 0.00000058859587}
+      rotation: {x: 0.19144721, y: -0.040954214, z: -0.14776951, w: 0.9694508}
+      scale: {x: 0.9999861, y: 0.9998817, z: 1.0001214}
+    - name: Side Hair L.003
+      parentName: Side Hair L.002
+      position: {x: 0.00000041350722, y: 0.045866538, z: 0.00000062957406}
+      rotation: {x: 0.06979904, y: -0.05920441, z: -0.13586839, w: 0.98649013}
+      scale: {x: 1.0000024, y: 0.99992275, z: 1.0000808}
+    - name: Side Hair L.003_end
+      parentName: Side Hair L.003
+      position: {x: -0.000000011175871, y: 0.045866333, z: 0.000000026077032}
+      rotation: {x: -0.000000096857505, y: -0.00000078603586, z: 0.0000000167638,
+        w: 1}
+      scale: {x: 1, y: 1.0000036, z: 1.0000033}
+    - name: 'Front Hair '
+      parentName: Head
+      position: {x: 0.030772146, y: 0.20464613, z: 0.05362788}
+      rotation: {x: 0.58088344, y: 0.18560578, z: 0.76576895, w: 0.2042618}
+      scale: {x: 0.99998415, y: 1.0000226, z: 1.0000052}
+    - name: Front Hair .001
+      parentName: 'Front Hair '
+      position: {x: -0.00000008987263, y: 0.040101916, z: -0.00000007962808}
+      rotation: {x: -0.2162518, y: -0.017709978, z: 0.079899564, w: 0.9729017}
+      scale: {x: 1.0000082, y: 0.99999815, z: 1.0000128}
+    - name: Front Hair .002
+      parentName: Front Hair .001
+      position: {x: 0.00000006775372, y: 0.029246077, z: -0.00000009126961}
+      rotation: {x: -0.14151503, y: 0.00000008381901, z: -0.042326476, w: 0.9890309}
+      scale: {x: 1.0000051, y: 0.99999434, z: 1.0000105}
+    - name: Front Hair .002_end
+      parentName: Front Hair .002
+      position: {x: 0.000000115484, y: 0.029246414, z: -0.0000000055879354}
+      rotation: {x: 0.000000029802312, y: 0.00000007820211, z: 0.000000080129816,
+        w: 1}
+      scale: {x: 1.0000017, y: 1.0000046, z: 1.0000017}
+    - name: Front Hair .003
+      parentName: Head
+      position: {x: -0.025426663, y: 0.2079772, z: 0.050068885}
+      rotation: {x: 0.5058279, y: 0.14370428, z: 0.8103889, w: 0.25837365}
+      scale: {x: 0.9999824, y: 1.00002, z: 1.0000027}
+    - name: Front Hair .004
+      parentName: Front Hair .003
+      position: {x: -0.000000063329935, y: 0.031237476, z: 0.000000007450581}
+      rotation: {x: -0.210267, y: -0.07851603, z: 0.1788528, w: 0.95793253}
+      scale: {x: 1.000009, y: 0.9999841, z: 1.0000107}
+    - name: Front Hair .005
+      parentName: Front Hair .004
+      position: {x: 0.00000018253922, y: 0.038758673, z: -0.0000001527369}
+      rotation: {x: -0.090609774, y: 0.058658764, z: 0.17031208, w: 0.97946054}
+      scale: {x: 0.9999662, y: 1.0000303, z: 1.0000074}
+    - name: Front Hair .005_end
+      parentName: Front Hair .005
+      position: {x: -0.00000013038516, y: 0.038758773, z: 0.00000010430813}
+      rotation: {x: -0.000000096857505, y: -0.0000000037252885, z: 0.00000002188607,
+        w: 1}
+      scale: {x: 0.9999991, y: 0.9999978, z: 0.9999997}
+    - name: Front Hair .006
+      parentName: Head
+      position: {x: 0.0004460712, y: 0.20738572, z: 0.052868046}
+      rotation: {x: 0.5669492, y: 0.21147874, z: 0.75516933, w: 0.25212067}
+      scale: {x: 0.9999842, y: 1.000029, z: 1.000008}
+    - name: Front Hair .007
+      parentName: Front Hair .006
+      position: {x: -0.000000052154064, y: 0.038761374, z: -0.000000070780516}
+      rotation: {x: -0.16756782, y: -0.022726303, z: 0.15068285, w: 0.9740119}
+      scale: {x: 1.0000042, y: 0.99999315, z: 1.0000075}
+    - name: Front Hair .008
+      parentName: Front Hair .007
+      position: {x: -0.000000033527613, y: 0.031140398, z: -0.000000037252903}
+      rotation: {x: -0.18972689, y: 0.026411263, z: 0.119353056, w: 0.9741976}
+      scale: {x: 0.9999787, y: 1.0000234, z: 1.0000124}
+    - name: Front Hair .008_end
+      parentName: Front Hair .008
+      position: {x: -0.000000044703484, y: 0.031140333, z: 0.00000014156103}
+      rotation: {x: -0, y: -0.000000033527602, z: 0.00000008195636, w: 1}
+      scale: {x: 0.9999985, y: 0.9999952, z: 0.9999977}
+    - name: Back Hair L
+      parentName: Head
+      position: {x: -0.09428884, y: 0.08623402, z: -0.08483682}
+      rotation: {x: 0.50175136, y: -0.040642083, z: 0.8429031, w: 0.19002187}
+      scale: {x: 0.9999965, y: 1.0000128, z: 1.0000136}
+    - name: Back Hair L.001
+      parentName: Back Hair L
+      position: {x: -0.000000052154064, y: 0.03809177, z: 0.000000020489097}
+      rotation: {x: 0.057125427, y: -0.0019878042, z: 0.012568333, w: 0.998286}
+      scale: {x: 1.000001, y: 1.000004, z: 0.9999916}
+    - name: Back Hair L.002
+      parentName: Back Hair L.001
+      position: {x: -0.000000067055225, y: 0.033708423, z: 0.00000008195639}
+      rotation: {x: 0.18527025, y: -0.021659164, z: 0.046521407, w: 0.9813468}
+      scale: {x: 1.0000095, y: 1.0000231, z: 0.9999849}
+    - name: Back Hair L.003
+      parentName: Back Hair L.002
+      position: {x: 0.000000078231096, y: 0.03177631, z: -0.00000010803342}
+      rotation: {x: 0.14796847, y: -0.06274671, z: -0.026066424, w: 0.98665535}
+      scale: {x: 1.0000052, y: 1.0000175, z: 0.9999884}
+    - name: Back Hair L.003_end
+      parentName: Back Hair L.003
+      position: {x: -0.000000059604645, y: 0.031775966, z: -0.000000011175871}
+      rotation: {x: 0.00000004470346, y: 0.000000011175865, z: 0.000000025145695,
+        w: 1}
+      scale: {x: 1.0000023, y: 1.0000057, z: 1.0000038}
+    - name: Back Hair L.004
+      parentName: Head
+      position: {x: -0.053302918, y: 0.06664169, z: -0.11014199}
+      rotation: {x: 0.52018386, y: 0.048569627, z: 0.83205974, w: 0.18635018}
+      scale: {x: 0.9999886, y: 1.0000126, z: 1.0000057}
+    - name: Back Hair L.005
+      parentName: Back Hair L.004
+      position: {x: -0.00000012665987, y: 0.036201376, z: -0.000000018626451}
+      rotation: {x: 0.06631188, y: 0.005749046, z: 0.01781313, w: 0.9976233}
+      scale: {x: 1.0000006, y: 1.0000081, z: 0.9999935}
+    - name: Back Hair L.006
+      parentName: Back Hair L.005
+      position: {x: -0.000000059604645, y: 0.03415557, z: 0.000000070780516}
+      rotation: {x: 0.103461556, y: 0.0027905318, z: 0.014417687, w: 0.994525}
+      scale: {x: 1.0000015, y: 1.0000058, z: 0.99998945}
+    - name: Back Hair L.007
+      parentName: Back Hair L.006
+      position: {x: 0.000000057742, y: 0.032305274, z: 0.0000000037252903}
+      rotation: {x: 0.022788584, y: -0.0522606, z: -0.0069491784, w: 0.99834925}
+      scale: {x: 1.0000045, y: 1.0000007, z: 0.9999878}
+    - name: Back Hair L.007_end
+      parentName: Back Hair L.007
+      position: {x: -0.000000022351742, y: 0.032305293, z: -0.000000026077032}
+      rotation: {x: 0.00000009685751, y: -0.000000026077023, z: -0.000000042840824,
+        w: 1}
+      scale: {x: 1.000003, y: 1.0000077, z: 1.0000029}
+    - name: Back Hair L.008
+      parentName: Head
+      position: {x: -0.02131607, y: 0.055615157, z: -0.1267193}
+      rotation: {x: 0.5179326, y: 0.025278673, z: 0.83813936, w: 0.16920197}
+      scale: {x: 0.9999917, y: 1.0000141, z: 1.0000087}
+    - name: Back Hair L.009
+      parentName: Back Hair L.008
+      position: {x: -0.000000052154064, y: 0.035517525, z: -0.000000074505806}
+      rotation: {x: 0.0667448, y: -0.011803932, z: 0.004820588, w: 0.9976886}
+      scale: {x: 1.0000008, y: 1.0000032, z: 0.9999886}
+    - name: Back Hair L.010
+      parentName: Back Hair L.009
+      position: {x: 0.000000056810677, y: 0.030532103, z: -0.000000011175871}
+      rotation: {x: 0.14121391, y: 0.043731406, z: -0.28094247, w: 0.9482708}
+      scale: {x: 0.99998504, y: 1.0000311, z: 0.9999897}
+    - name: Back Hair L.011
+      parentName: Back Hair L.010
+      position: {x: -0.00000006891787, y: 0.04739099, z: 0.000000055879354}
+      rotation: {x: 0.08658805, y: -0.0013100464, z: 0.2823844, w: 0.95538473}
+      scale: {x: 1.0000465, y: 0.9999743, z: 0.99999386}
+    - name: Back Hair L.011_end
+      parentName: Back Hair L.011
+      position: {x: -0.00000006426126, y: 0.04739077, z: 0.000000011175871}
+      rotation: {x: 0.00000007450579, y: 0.000000066705965, z: -0.00000006059416,
+        w: 1}
+      scale: {x: 0.9999998, y: 1.0000014, z: 1.0000008}
+    - name: Side Hair R
+      parentName: Head
+      position: {x: 0.10318049, y: 0.096895374, z: -0.0009423946}
+      rotation: {x: -0.48751035, y: 0.05307415, z: 0.8714162, w: -0.012270865}
+      scale: {x: 1.0000051, y: 1.0000088, z: 1.0000685}
+    - name: Side Hair R.001
+      parentName: Side Hair R
+      position: {x: -0.000000063329935, y: 0.042617712, z: -0.00000009685755}
+      rotation: {x: 0.12651548, y: -0.00051031134, z: -0.006515047, w: 0.9919431}
+      scale: {x: 1.0000023, y: 1.000009, z: 0.9999984}
+    - name: Side Hair R.002
+      parentName: Side Hair R.001
+      position: {x: -0.00000018626451, y: 0.04035574, z: 0.0000005438924}
+      rotation: {x: 0.19144733, y: 0.04095379, z: 0.14776945, w: 0.9694509}
+      scale: {x: 0.9999885, y: 0.99989253, z: 1.0001314}
+    - name: Side Hair R.003
+      parentName: Side Hair R.002
+      position: {x: -0.0000003054738, y: 0.045866378, z: 0.00000074133277}
+      rotation: {x: 0.06980079, y: 0.0592042, z: 0.1358693, w: 0.98648995}
+      scale: {x: 0.9999986, y: 0.9999186, z: 1.0000803}
+    - name: Side Hair R.003_end
+      parentName: Side Hair R.003
+      position: {x: 0.0000000018626451, y: 0.04586618, z: 0.000000033527613}
+      rotation: {x: -0.0000001341104, y: 0.0000009052451, z: -0.00000014295794, w: 1}
+      scale: {x: 1.0000021, y: 1.0000029, z: 1.0000032}
+    - name: Back Hair R
+      parentName: Head
+      position: {x: 0.094288744, y: 0.08623384, z: -0.0848368}
+      rotation: {x: -0.50175047, y: -0.040642943, z: 0.84290355, w: -0.1900217}
+      scale: {x: 0.99999374, y: 1.0000073, z: 1.000013}
+    - name: Back Hair R.001
+      parentName: Back Hair R
+      position: {x: 0.000000070780516, y: 0.03809178, z: -0.00000007171184}
+      rotation: {x: 0.05712639, y: 0.0019881956, z: -0.012568142, w: 0.9982859}
+      scale: {x: 0.99999994, y: 1.0000085, z: 0.99999064}
+    - name: Back Hair R.002
+      parentName: Back Hair R.001
+      position: {x: -0.000000040978193, y: 0.033708766, z: 0.0000001937151}
+      rotation: {x: 0.18526986, y: 0.021658557, z: -0.04652128, w: 0.9813469}
+      scale: {x: 1.0000057, y: 1.0000113, z: 0.99997956}
+    - name: Back Hair R.003
+      parentName: Back Hair R.002
+      position: {x: 0.00000017508864, y: 0.031775936, z: 0.000000048428774}
+      rotation: {x: 0.14796837, y: 0.06274692, z: 0.026066486, w: 0.98665535}
+      scale: {x: 1.0000087, y: 1.0000196, z: 0.9999904}
+    - name: Back Hair R.003_end
+      parentName: Back Hair R.003
+      position: {x: 0.00000010244548, y: 0.031776045, z: 0.000000011175871}
+      rotation: {x: 0.000000014901154, y: -0.00000024586905, z: 0.00000001769512,
+        w: 1}
+      scale: {x: 1.0000024, y: 1.0000076, z: 1.000004}
+    - name: Back Hair R.004
+      parentName: Head
+      position: {x: 0.05330287, y: 0.06664158, z: -0.11014171}
+      rotation: {x: -0.5201819, y: 0.04856977, z: 0.8320612, w: -0.18634926}
+      scale: {x: 0.99999124, y: 1.0000147, z: 1.0000094}
+    - name: Back Hair R.005
+      parentName: Back Hair R.004
+      position: {x: 0.000000052154064, y: 0.03620173, z: -0.0000000121071935}
+      rotation: {x: 0.06631151, y: -0.0057489756, z: -0.017812759, w: 0.9976234}
+      scale: {x: 1.0000015, y: 1.0000124, z: 0.9999978}
+    - name: Back Hair R.006
+      parentName: Back Hair R.005
+      position: {x: -0.00000008940697, y: 0.034154646, z: -0.00000011175871}
+      rotation: {x: 0.10346103, y: -0.0027903465, z: -0.014417484, w: 0.99452513}
+      scale: {x: 1.0000036, y: 1.0000205, z: 1}
+    - name: Back Hair R.007
+      parentName: Back Hair R.006
+      position: {x: -0.000000009313226, y: 0.03230565, z: -0.00000009313226}
+      rotation: {x: 0.02278831, y: 0.052260306, z: 0.0069488534, w: 0.9983493}
+      scale: {x: 1.0000092, y: 1.000009, z: 0.9999965}
+    - name: Back Hair R.007_end
+      parentName: Back Hair R.007
+      position: {x: 0.00000005122274, y: 0.032305583, z: 0.0000000018626451}
+      rotation: {x: -0.000000067055204, y: -0.00000014528626, z: -0.000000035623074,
+        w: 1}
+      scale: {x: 0.99999875, y: 0.9999965, z: 0.999999}
+    - name: Back Hair R.008
+      parentName: Head
+      position: {x: 0.021316005, y: 0.055615157, z: -0.12671912}
+      rotation: {x: -0.517932, y: 0.025277773, z: 0.8381398, w: -0.1692014}
+      scale: {x: 0.9999922, y: 1.0000153, z: 1.0000101}
+    - name: Back Hair R.009
+      parentName: Back Hair R.008
+      position: {x: 0.000000023283064, y: 0.035517626, z: 0.000000016298145}
+      rotation: {x: 0.066745274, y: 0.011804158, z: -0.0048196977, w: 0.99768865}
+      scale: {x: 1.0000014, y: 1.000003, z: 0.9999879}
+    - name: Back Hair R.010
+      parentName: Back Hair R.009
+      position: {x: -0.00000009685755, y: 0.030532643, z: 0.000000086613}
+      rotation: {x: 0.14121403, y: -0.04373199, z: 0.28094217, w: 0.94827086}
+      scale: {x: 0.9999867, y: 1.0000312, z: 0.99999017}
+    - name: Back Hair R.011
+      parentName: Back Hair R.010
+      position: {x: 0.00000006239861, y: 0.047391355, z: -0.000000014901161}
+      rotation: {x: 0.08658785, y: 0.0013107392, z: -0.28238428, w: 0.9553847}
+      scale: {x: 1.000042, y: 0.9999667, z: 0.9999891}
+    - name: Back Hair R.011_end
+      parentName: Back Hair R.011
+      position: {x: -0.00000006053597, y: 0.047391, z: -0.000000022351742}
+      rotation: {x: 0.00000005960463, y: 0.0000000061700107, z: 0.000000024214382,
+        w: 1}
+      scale: {x: 0.9999991, y: 1.0000014, z: 0.9999984}
+    - name: 'Back Hair '
+      parentName: Head
+      position: {x: -0.00013267266, y: 0.04660905, z: -0.14373009}
+      rotation: {x: 0.5387652, y: 0.12343198, z: 0.82034075, w: 0.14675774}
+      scale: {x: 0.9999898, y: 1.0000215, z: 1.0000062}
+    - name: Back Hair .001
+      parentName: 'Back Hair '
+      position: {x: 0.000000013271347, y: 0.032886527, z: -0.00000012037344}
+      rotation: {x: 0.08078304, y: 0.026508234, z: -0.03958034, w: 0.9955928}
+      scale: {x: 0.9999959, y: 1.0000107, z: 0.9999992}
+    - name: Back Hair .002
+      parentName: Back Hair .001
+      position: {x: 0.0000001846347, y: 0.028092172, z: 0.00000003306195}
+      rotation: {x: 0.16036388, y: -0.018175334, z: -0.09475717, w: 0.982331}
+      scale: {x: 0.9999931, y: 1.0000339, z: 0.9999911}
+    - name: Back Hair .003
+      parentName: Back Hair .002
+      position: {x: -3.4924597e-10, y: 0.02521595, z: 0.0000001359731}
+      rotation: {x: -0.18895915, y: 0.08225419, z: 0.062018476, w: 0.97656673}
+      scale: {x: 1.0000083, y: 0.99997014, z: 1.0000278}
+    - name: Back Hair .003_end
+      parentName: Back Hair .003
+      position: {x: 0.00000002712477, y: 0.025215937, z: -0.0000000041909516}
+      rotation: {x: -0.00000005960461, y: -0.00000004470346, z: 0.00000008381898,
+        w: 1}
+      scale: {x: 0.99999887, y: 0.99999255, z: 0.99999565}
+    - name: Eye L
+      parentName: Head
+      position: {x: -0.043615315, y: 0.10319546, z: 0.10529096}
+      rotation: {x: 0.60979277, y: -0.0000021745336, z: -0.0000018716203, w: 0.79256094}
+      scale: {x: 1.0000097, y: 0.9999948, z: 1.0000148}
+    - name: Eye L_end
+      parentName: Eye L
+      position: {x: -0.0000000055879354, y: 0.13933225, z: 0.000000040978193}
+      rotation: {x: 0.00000008940694, y: -4.2166434e-10, z: -0.0000000043349915, w: 1}
+      scale: {x: 1.000005, y: 1.0000011, z: 1.0000026}
+    - name: Eye R
+      parentName: Head
+      position: {x: 0.04361537, y: 0.1031957, z: 0.10529073}
+      rotation: {x: 0.60979277, y: -0.0000017968987, z: -0.0000015820934, w: 0.7925608}
+      scale: {x: 1.0000046, y: 0.99999195, z: 1.0000113}
+    - name: Eye R_end
+      parentName: Eye R
+      position: {x: -0, y: 0.13933231, z: -0.000000110827386}
+      rotation: {x: -0, y: 1.0004439e-11, z: -0.000000004656612, w: 1}
+      scale: {x: 1.0000044, y: 1.0000014, z: 1.0000027}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.010349499, y: 0.15391174, z: 0.032058444}
+      rotation: {x: -0.5388684, y: 0.34915882, z: 0.43629217, w: 0.63036346}
+      scale: {x: 0.9999947, y: 0.99999815, z: 1.0000086}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.007761061, y: 0.120892905, z: -0.0035118088}
+      rotation: {x: 0.1336379, y: -0.7138349, z: 0.1371312, w: 0.67362875}
+      scale: {x: 0.9999928, y: 1.0000131, z: 1.0000023}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: 0.000000023283064, y: 0.22465576, z: 0.000000067055225}
+      rotation: {x: 0.033908527, y: -0.070379116, z: -0.023903301, w: 0.99665725}
+      scale: {x: 1.0000077, y: 1.0000085, z: 0.99999875}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: 0.00000040233135, y: 0.21568125, z: -0.000000033527613}
+      rotation: {x: 0.019732825, y: -0.010911863, z: -0.05875455, w: 0.9980178}
+      scale: {x: 1.0000117, y: 0.99999946, z: 1.0000092}
+    - name: palm.01.L
+      parentName: hand.L
+      position: {x: -0.0017216173, y: 0.035538502, z: 0.021760855}
+      rotation: {x: -0.037094194, y: 0.71805537, z: -0.06279199, w: -0.69215435}
+      scale: {x: 1.0000002, y: 1.0000061, z: 0.9999911}
+    - name: f_index.01.L
+      parentName: palm.01.L
+      position: {x: -0.000000003259629, y: 0.04084399, z: -0.0000000067811925}
+      rotation: {x: 0.008231728, y: 0.014033846, z: -0.0163432, w: 0.99973404}
+      scale: {x: 1.0000019, y: 1.000009, z: 0.99999803}
+    - name: f_index.02.L
+      parentName: f_index.01.L
+      position: {x: 0.00000004033791, y: 0.027510194, z: 0.000000050407834}
+      rotation: {x: -0.021192592, y: -0.06898993, z: 0.016030567, w: 0.9972634}
+      scale: {x: 1.0000072, y: 0.9999992, z: 1.0000026}
+    - name: f_index.03.L
+      parentName: f_index.02.L
+      position: {x: -0.000000024214387, y: 0.024298254, z: 0.0000000389482}
+      rotation: {x: 0.031293727, y: 0.074552655, z: 0.0044314517, w: 0.9967161}
+      scale: {x: 0.999999, y: 1.000029, z: 0.9999803}
+    - name: f_index.03.L_end
+      parentName: f_index.03.L
+      position: {x: -0.000000018626451, y: 0.024298292, z: 0.00000004656613}
+      rotation: {x: -0.00000010430808, y: -0.00000014901154, z: 0.0000000335276, w: 1}
+      scale: {x: 0.99999994, y: 1.0000025, z: 0.9999998}
+    - name: thumb.01.L
+      parentName: palm.01.L
+      position: {x: -0.009335542, y: -0.011206312, z: 0.008078834}
+      rotation: {x: -0.31673712, y: -0.63022804, z: -0.28130326, w: 0.65066016}
+      scale: {x: 0.9999917, y: 1.0000359, z: 0.99998456}
+    - name: thumb.02.L
+      parentName: thumb.01.L
+      position: {x: 0.000000027939677, y: 0.025574073, z: -0.00000016856939}
+      rotation: {x: 0.037486024, y: 0.0415704, z: -0.0013142369, w: 0.99843127}
+      scale: {x: 1.0000021, y: 1.0000118, z: 0.9999953}
+    - name: thumb.03.L
+      parentName: thumb.02.L
+      position: {x: 0.000000007450581, y: 0.030961832, z: -0.0000000037252903}
+      rotation: {x: 0.03063675, y: 0.093530975, z: -0.017934263, w: 0.9949833}
+      scale: {x: 0.9999853, y: 1.0000437, z: 0.99997276}
+    - name: thumb.03.L_end
+      parentName: thumb.03.L
+      position: {x: 0.000000007450581, y: 0.030961698, z: 0}
+      rotation: {x: 0.00000008940692, y: 0.000000111758645, z: 0.000000039115523,
+        w: 1}
+      scale: {x: 1.0000018, y: 1.0000032, z: 1.0000002}
+    - name: palm.02.L
+      parentName: hand.L
+      position: {x: 0.00033238617, y: 0.035221457, z: 0.007872106}
+      rotation: {x: 0.012185374, y: 0.7028458, z: -0.036879066, w: -0.710281}
+      scale: {x: 1.0000026, y: 1.0000004, z: 0.9999986}
+    - name: f_middle.01.L
+      parentName: palm.02.L
+      position: {x: -0.00000004004687, y: 0.03903019, z: -0.00000010151416}
+      rotation: {x: -0.045258306, y: -0.095938995, z: 0.0069396663, w: -0.9943336}
+      scale: {x: 1.0000011, y: 1.0000108, z: 0.99999255}
+    - name: f_middle.02.L
+      parentName: f_middle.01.L
+      position: {x: -0.000000055879354, y: 0.036835726, z: 0.00000018952414}
+      rotation: {x: -0.038318228, y: 0.15745535, z: 0.014701474, w: -0.9866729}
+      scale: {x: 0.9999973, y: 1.0000165, z: 1.0000012}
+    - name: f_middle.03.L
+      parentName: f_middle.02.L
+      position: {x: 0.00000006426126, y: 0.023805406, z: -0.00000008684583}
+      rotation: {x: 0.03130387, y: -0.051959082, z: 0.0027214608, w: 0.9981548}
+      scale: {x: 1.0000106, y: 1.0000377, z: 0.99996537}
+    - name: f_middle.03.L_end
+      parentName: f_middle.03.L
+      position: {x: -0.000000004656613, y: 0.023805458, z: 0.000000028987415}
+      rotation: {x: -0.00000005960461, y: -0.0000000633299, z: 0.000000045634778,
+        w: 1}
+      scale: {x: 0.99999756, y: 0.999999, z: 0.999999}
+    - name: palm.03.L
+      parentName: hand.L
+      position: {x: -0.00070488924, y: 0.031875566, z: -0.0043745427}
+      rotation: {x: 0.090911224, y: 0.6843913, z: -0.017242601, w: -0.7232195}
+      scale: {x: 1.0000058, y: 0.99999374, z: 1.0000103}
+    - name: f_ring.01.L
+      parentName: palm.03.L
+      position: {x: -0.000000009313226, y: 0.040501356, z: 0.000000155007}
+      rotation: {x: -0.11907827, y: -0.07377771, z: 0.04311986, w: -0.9892007}
+      scale: {x: 1.0000055, y: 1.0000213, z: 0.99998504}
+    - name: f_ring.02.L
+      parentName: f_ring.01.L
+      position: {x: 0.000000011175871, y: 0.029362502, z: -0.000000035157427}
+      rotation: {x: 0.0023762123, y: 0.14953828, z: 0.027657038, w: -0.9883662}
+      scale: {x: 0.9999991, y: 1.0000068, z: 1.0000027}
+    - name: f_ring.03.L
+      parentName: f_ring.02.L
+      position: {x: 0.0000000075961, y: 0.022912664, z: -0.00000007057679}
+      rotation: {x: 0.02893017, y: 0.052968755, z: 0.0032200841, w: 0.99817187}
+      scale: {x: 0.9999998, y: 1.0000014, z: 1.0000002}
+    - name: f_ring.03.L_end
+      parentName: f_ring.03.L
+      position: {x: 0.00000001071021, y: 0.022912659, z: 0.0000000018626451}
+      rotation: {x: -0.000000029802312, y: -0.000000003725289, z: -0.000000016763801,
+        w: 1}
+      scale: {x: 0.99999946, y: 0.9999998, z: 0.99999887}
+    - name: palm.04.L
+      parentName: hand.L
+      position: {x: -0.0032863112, y: 0.02713739, z: -0.015789013}
+      rotation: {x: -0.13342606, y: -0.6843896, z: 0.05147301, w: 0.7149537}
+      scale: {x: 1.0000057, y: 0.9999879, z: 1.000008}
+    - name: f_pinky.01.L
+      parentName: palm.04.L
+      position: {x: 0.000000007450581, y: 0.040345695, z: 0.00000013858607}
+      rotation: {x: 0.089698106, y: 0.017265404, z: -0.08539537, w: 0.99215114}
+      scale: {x: 1.0000021, y: 1.000016, z: 0.99999374}
+    - name: f_pinky.02.L
+      parentName: f_pinky.01.L
+      position: {x: -0.000000020954758, y: 0.027556865, z: 0.00000014179386}
+      rotation: {x: -0.0355147, y: 0.0339608, z: -0.0021763735, w: -0.99878955}
+      scale: {x: 1.0000042, y: 1.0000114, z: 0.99999326}
+    - name: f_pinky.03.L
+      parentName: f_pinky.02.L
+      position: {x: -0.000000041909516, y: 0.01730201, z: -0.0000000048894435}
+      rotation: {x: -0.04075157, y: -0.1472738, z: -0.004478523, w: -0.9882457}
+      scale: {x: 0.9999997, y: 1.0000128, z: 0.9999984}
+    - name: f_pinky.03.L_end
+      parentName: f_pinky.03.L
+      position: {x: 0.000000067055225, y: 0.017302163, z: -0.00000008195639}
+      rotation: {x: -0.0000000037252885, y: -0.00000007450577, z: 0.000000019557765,
+        w: 1}
+      scale: {x: 0.9999998, y: 0.9999979, z: 0.99999815}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.01034949, y: 0.1539117, z: 0.032058496}
+      rotation: {x: -0.53693193, y: -0.3508792, z: -0.43625176, w: 0.6310882}
+      scale: {x: 0.99999124, y: 0.9999959, z: 1.0000081}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: 0.0077610705, y: 0.12089299, z: -0.0035119988}
+      rotation: {x: -0.13592586, y: -0.7136534, z: 0.13364911, w: -0.6740631}
+      scale: {x: 0.999994, y: 1.0000106, z: 1.0000035}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -0.000000007450581, y: 0.22465518, z: -0.000000026077032}
+      rotation: {x: 0.033891633, y: 0.07039782, z: 0.023758266, w: 0.99666}
+      scale: {x: 1.0000074, y: 1.0000128, z: 0.99999887}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -0.00000012479722, y: 0.21568145, z: 0.000000022351742}
+      rotation: {x: 0.019732853, y: 0.010911854, z: 0.05875452, w: 0.9980178}
+      scale: {x: 1.0000081, y: 0.99998766, z: 0.999994}
+    - name: palm.01.R
+      parentName: hand.R
+      position: {x: 0.0017219586, y: 0.035538882, z: 0.02176074}
+      rotation: {x: 0.037094492, y: 0.71805507, z: -0.06279209, w: 0.69215465}
+      scale: {x: 1.0000058, y: 1.0000114, z: 0.9999948}
+    - name: f_index.01.R
+      parentName: palm.01.R
+      position: {x: 0.000000011175871, y: 0.0408443, z: -0.00000024866313}
+      rotation: {x: 0.00822871, y: -0.0140339695, z: 0.016342431, w: 0.99973416}
+      scale: {x: 1.0000021, y: 1.0000094, z: 0.9999983}
+    - name: f_index.02.R
+      parentName: f_index.01.R
+      position: {x: -0.000000022351742, y: 0.02751045, z: -0.0000000896398}
+      rotation: {x: -0.021192968, y: 0.06899072, z: -0.016030423, w: 0.9972634}
+      scale: {x: 1.0000094, y: 1.0000103, z: 1.0000081}
+    - name: f_index.03.R
+      parentName: f_index.02.R
+      position: {x: 0.000000011175871, y: 0.024298195, z: 0.00000015506521}
+      rotation: {x: 0.0312975, y: -0.074554205, z: -0.0044346196, w: 0.9967159}
+      scale: {x: 1.0000025, y: 1.0000187, z: 0.99998623}
+    - name: f_index.03.R_end
+      parentName: f_index.03.R
+      position: {x: -0.000000029802322, y: 0.024298105, z: 0.000000047963113}
+      rotation: {x: -0.000000014901152, y: -0, z: 0.000000001862644, w: 1}
+      scale: {x: 1.0000005, y: 1.0000018, z: 1}
+    - name: thumb.01.R
+      parentName: palm.01.R
+      position: {x: 0.009335643, y: -0.01120618, z: 0.008078784}
+      rotation: {x: -0.31735432, y: 0.62993944, z: 0.28071654, w: 0.6508923}
+      scale: {x: 0.9999966, y: 1.0000243, z: 0.9999859}
+    - name: thumb.02.R
+      parentName: thumb.01.R
+      position: {x: 0.00000005029142, y: 0.02557402, z: 0.00000014342368}
+      rotation: {x: 0.037488766, y: -0.04156995, z: 0.0013188712, w: 0.99843115}
+      scale: {x: 0.99999946, y: 1.0000014, z: 1.0000039}
+    - name: thumb.03.R
+      parentName: thumb.02.R
+      position: {x: 0.00000017508864, y: 0.03096185, z: -0.00000027939677}
+      rotation: {x: 0.030628596, y: -0.09353066, z: 0.017916316, w: 0.9949839}
+      scale: {x: 0.9999972, y: 1.0000299, z: 0.999988}
+    - name: thumb.03.R_end
+      parentName: thumb.03.R
+      position: {x: -0.000000026077032, y: 0.030961828, z: 0.0000000018626451}
+      rotation: {x: 0.000000029802308, y: 0.000000022351731, z: -0.0000000018626443,
+        w: 1}
+      scale: {x: 1.0000014, y: 1.0000036, z: 0.9999992}
+    - name: palm.02.R
+      parentName: hand.R
+      position: {x: -0.00033215387, y: 0.035221342, z: 0.007872019}
+      rotation: {x: -0.012185001, y: 0.70284563, z: -0.03687884, w: 0.7102814}
+      scale: {x: 1.0000052, y: 1.0000037, z: 1.0000006}
+    - name: f_middle.01.R
+      parentName: palm.02.R
+      position: {x: -0.000000055879354, y: 0.03903003, z: -0.00000007869676}
+      rotation: {x: 0.045258544, y: -0.09593836, z: 0.006938975, w: 0.9943336}
+      scale: {x: 1.0000051, y: 1.0000142, z: 0.99999684}
+    - name: f_middle.02.R
+      parentName: f_middle.01.R
+      position: {x: 0.000000029802322, y: 0.03683566, z: -0.000000027008355}
+      rotation: {x: 0.0383171, y: 0.15745641, z: 0.014701734, w: 0.9866728}
+      scale: {x: 1.0000002, y: 1.0000069, z: 0.9999953}
+    - name: f_middle.03.R
+      parentName: f_middle.02.R
+      position: {x: -0.000000011175871, y: 0.023805592, z: -0.00000016752165}
+      rotation: {x: 0.03131138, y: 0.05195908, z: -0.0027282652, w: 0.9981546}
+      scale: {x: 1.000009, y: 1.0000306, z: 0.9999779}
+    - name: f_middle.03.R_end
+      parentName: f_middle.03.R
+      position: {x: -0.000000014901161, y: 0.023805693, z: 0.00000006961636}
+      rotation: {x: -0, y: -0.000000007450578, z: -0.000000029802312, w: 1}
+      scale: {x: 1.0000051, y: 1.0000048, z: 0.99999994}
+    - name: palm.03.R
+      parentName: hand.R
+      position: {x: 0.00070503075, y: 0.03187563, z: -0.0043745954}
+      rotation: {x: -0.09091129, y: 0.684392, z: -0.01724167, w: 0.72321886}
+      scale: {x: 1.0000074, y: 0.99999446, z: 1.000008}
+    - name: f_ring.01.R
+      parentName: palm.03.R
+      position: {x: -0.000000008381903, y: 0.04050135, z: -0.00000011664815}
+      rotation: {x: 0.11907879, y: -0.07377812, z: 0.043119624, w: 0.98920053}
+      scale: {x: 1.0000027, y: 1.00002, z: 0.9999843}
+    - name: f_ring.02.R
+      parentName: f_ring.01.R
+      position: {x: -0.0000000055879354, y: 0.029362477, z: 0.00000008568168}
+      rotation: {x: -0.0023754376, y: 0.1495378, z: 0.027656928, w: 0.98836625}
+      scale: {x: 1.0000025, y: 1.0000048, z: 0.9999983}
+    - name: f_ring.03.R
+      parentName: f_ring.02.R
+      position: {x: 0.000000007916242, y: 0.022912739, z: -0.00000026769703}
+      rotation: {x: 0.028929563, y: -0.05296962, z: -0.0032170597, w: 0.9981718}
+      scale: {x: 1.0000006, y: 0.99999124, z: 1.000008}
+    - name: f_ring.03.R_end
+      parentName: f_ring.03.R
+      position: {x: -0.000000032712705, y: 0.022912676, z: 0.00000005326001}
+      rotation: {x: -0.000000029802308, y: -0, z: 0.0000000018626443, w: 1}
+      scale: {x: 0.9999992, y: 0.9999983, z: 1.0000007}
+    - name: palm.04.R
+      parentName: hand.R
+      position: {x: 0.003286369, y: 0.027137473, z: -0.01578912}
+      rotation: {x: -0.13342594, y: 0.6843891, z: -0.0514726, w: 0.7149543}
+      scale: {x: 1.0000098, y: 0.9999923, z: 1.0000083}
+    - name: f_pinky.01.R
+      parentName: palm.04.R
+      position: {x: -0.000000020489097, y: 0.040345483, z: 0.0000001937151}
+      rotation: {x: 0.08969637, y: -0.017265428, z: 0.08539619, w: 0.99215126}
+      scale: {x: 1.0000017, y: 1.0000116, z: 0.9999904}
+    - name: f_pinky.02.R
+      parentName: f_pinky.01.R
+      position: {x: -0.0000000014988473, y: 0.027556928, z: 0.0000002674351}
+      rotation: {x: 0.035516232, y: 0.033961028, z: -0.0021821996, w: 0.9987895}
+      scale: {x: 1.0000027, y: 1.0000082, z: 0.9999973}
+    - name: f_pinky.03.R
+      parentName: f_pinky.02.R
+      position: {x: 0.000000052619725, y: 0.017302273, z: -0.00000006775372}
+      rotation: {x: 0.04074872, y: -0.1472742, z: -0.004478381, w: 0.9882458}
+      scale: {x: 0.9999991, y: 1.0000038, z: 1.000002}
+    - name: f_pinky.03.R_end
+      parentName: f_pinky.03.R
+      position: {x: -0.000000084750354, y: 0.017302403, z: -4.656613e-10}
+      rotation: {x: -0.00000010803337, y: 0.000000059604616, z: -0.0000000358559,
+        w: 1}
+      scale: {x: 1.0000007, y: 1.0000032, z: 1.0000021}
+    - name: breast.L
+      parentName: spine.003
+      position: {x: -0.056618057, y: 0.067283206, z: 0.032642964}
+      rotation: {x: 0.089108124, y: -0.39996585, z: -0.90086997, w: -0.14324982}
+      scale: {x: 0.9999953, y: 0.9999818, z: 1.0000209}
+    - name: breast.L_end
+      parentName: breast.L
+      position: {x: -0.000000067055225, y: 0.0937987, z: 0.0000000037252903}
+      rotation: {x: -0.000000103376756, y: 0.00000007450577, z: -0.000000029802308,
+        w: 1}
+      scale: {x: 0.9999992, y: 1.0000012, z: 1.0000004}
+    - name: breast.R
+      parentName: spine.003
+      position: {x: 0.056618005, y: 0.06728307, z: 0.032642994}
+      rotation: {x: -0.08910833, y: -0.39996523, z: -0.9008702, w: 0.14324947}
+      scale: {x: 0.9999948, y: 0.9999804, z: 1.0000179}
+    - name: breast.R_end
+      parentName: breast.R
+      position: {x: -0.00000002142042, y: 0.093798645, z: -0.00000010547228}
+      rotation: {x: 0.000000020489091, y: -0.000000048428763, z: -0.00000006705521,
+        w: 1}
+      scale: {x: 0.99999994, y: 1.0000015, z: 1.0000018}
+    - name: Shoulder Bag1
+      parentName: spine.001
+      position: {x: 0.17681585, y: 0.07608781, z: 0.040141523}
+      rotation: {x: -0.046561487, y: 0.10084578, z: 0.9885549, w: -0.10208561}
+      scale: {x: 0.9999986, y: 1.0000015, z: 1.0000017}
+    - name: Shoulder Bag_end
+      parentName: Shoulder Bag1
+      position: {x: 0.000000009313226, y: 0.12202254, z: -0.0000000037252903}
+      rotation: {x: 0.0000000013969838, y: 0.000000032596287, z: 0.000000024214383,
+        w: 1}
+      scale: {x: 0.9999998, y: 1.000006, z: 1.0000049}
+    - name: pelvis.L
+      parentName: spine
+      position: {x: 0.00000003725291, y: -0.00000006053597, z: 0.000000011175871}
+      rotation: {x: 0.26315352, y: -0.73722297, z: -0.38856825, w: -0.4860733}
+      scale: {x: 1.0000051, y: 1.0000043, z: 1.0000054}
+    - name: pelvis.L_end
+      parentName: pelvis.L
+      position: {x: -0.000000022992026, y: 0.07740764, z: 0.00000003831883}
+      rotation: {x: -0.00000008940696, y: -0.000000059604638, z: 0.0000000745058,
+        w: 1}
+      scale: {x: 1, y: 1.0000006, z: 1}
+    - name: pelvis.R
+      parentName: spine
+      position: {x: -0.00000003725291, y: -0.00000006053597, z: 0.000000011175871}
+      rotation: {x: -0.26315364, y: -0.7372231, z: -0.38856828, w: 0.48607305}
+      scale: {x: 1.0000064, y: 1.0000045, z: 1.0000052}
+    - name: pelvis.R_end
+      parentName: pelvis.R
+      position: {x: 0.0000000114087015, y: 0.07740771, z: 0.000000093696144}
+      rotation: {x: -0.000000029802315, y: 0.00000011920926, z: 0.00000019371505,
+        w: 1}
+      scale: {x: 1.0000032, y: 1.0000035, z: 1.000004}
+    - name: thigh.L
+      parentName: spine
+      position: {x: -0.09531401, y: 0.016743429, z: 0.02826433}
+      rotation: {x: -0.9887674, y: -0.025391722, z: 0.0059701717, w: -0.14716871}
+      scale: {x: 1.0000069, y: 1.0000039, z: 1.0000024}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: 0.00000003958121, y: 0.35815686, z: 0.00000020489097}
+      rotation: {x: 0.04015002, y: 0.00341184, z: 0.02054069, w: 0.99897677}
+      scale: {x: 1.0000025, y: 1.000005, z: 0.99999994}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: -0.0000000019790605, y: 0.39607394, z: 0.0000000805594}
+      rotation: {x: -0.32854652, y: -0.0017462939, z: 0.0050583933, w: 0.9444727}
+      scale: {x: 1, y: 0.99999696, z: 1.0000023}
+    - name: toe.L
+      parentName: foot.L
+      position: {x: -0.000000017462298, y: 0.114908054, z: 0.000000014901161}
+      rotation: {x: 0.063146114, y: 0.9048784, z: -0.41993907, w: 0.029304516}
+      scale: {x: 1.000001, y: 1.0000169, z: 0.9999864}
+    - name: toe.L_end
+      parentName: toe.L
+      position: {x: 0.0000000061118044, y: 0.11490807, z: -0.0000000018626451}
+      rotation: {x: -0.000000029103827, y: 0.00000001117587, z: 0.00000001117587,
+        w: 1}
+      scale: {x: 1, y: 1.0000035, z: 1.0000014}
+    - name: heel.02.L
+      parentName: foot.L
+      position: {x: 0.030991195, y: 0.089967206, z: 0.077671416}
+      rotation: {x: -0.62298447, y: 0.62298614, z: -0.33449823, w: -0.3344991}
+      scale: {x: 1.0000175, y: 1.0000026, z: 0.9999906}
+    - name: heel.02.L_end
+      parentName: heel.02.L
+      position: {x: 0.000000006519258, y: 0.114908025, z: -0.0000000027939677}
+      rotation: {x: 0.000000029802315, y: 0.00000016391273, z: 0.00000005960463, w: 1}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000008}
+    - name: thigh.R
+      parentName: spine
+      position: {x: 0.09531401, y: 0.016743494, z: 0.028264318}
+      rotation: {x: -0.9887675, y: 0.025391718, z: -0.005970815, w: -0.14716823}
+      scale: {x: 1.0000098, y: 1.0000058, z: 1.0000029}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: 0.000000045401976, y: 0.35815674, z: -0.00000005401671}
+      rotation: {x: 0.04014981, y: -0.0034118355, z: -0.020540683, w: 0.9989767}
+      scale: {x: 1.0000027, y: 1.0000021, z: 1.0000006}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: 0.000000016298145, y: 0.39607394, z: -0.00000004284084}
+      rotation: {x: -0.3285458, y: 0.0017462804, z: -0.0050584376, w: 0.94447297}
+      scale: {x: 1.0000017, y: 0.9999983, z: 1.0000024}
+    - name: toe.R
+      parentName: foot.R
+      position: {x: 0.00000000410364, y: 0.11490795, z: -0.00000002561137}
+      rotation: {x: -0.06314622, y: 0.9048779, z: -0.4199401, w: -0.029305488}
+      scale: {x: 1.0000001, y: 1.0000074, z: 0.9999946}
+    - name: toe.R_end
+      parentName: toe.R
+      position: {x: -0.000000004132744, y: 0.114907965, z: 0.0000000018626451}
+      rotation: {x: 0.00000010686925, y: -0.0000036787237, z: 0.00000003352761, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: heel.02.R
+      parentName: foot.R
+      position: {x: -0.030991184, y: 0.08996741, z: 0.07767129}
+      rotation: {x: 0.6229847, y: 0.62298477, z: -0.33449894, w: 0.33450064}
+      scale: {x: 1.000009, y: 1.000003, z: 0.9999961}
+    - name: heel.02.R_end
+      parentName: heel.02.R
+      position: {x: 0.0000000146683306, y: 0.11490797, z: 0.0000000023283064}
+      rotation: {x: 0.00000007450578, y: -0.00000014901156, z: -0, w: 1}
+      scale: {x: 1.0000013, y: 1.0000017, z: 1.000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
