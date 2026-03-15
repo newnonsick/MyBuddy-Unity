@@ -39,7 +39,7 @@ This Unity project is part of the MyBuddy product surface:
 
 - **Flutter app**: https://github.com/newnonsick/MyBuddy
 - **Unity avatar runtime**: https://github.com/newnonsick/MyBuddy-Unity
-- **Model catalogs**: https://github.com/newnonsick/MyBuddy-cfg
+- **Model catalog admin panel**: https://github.com/newnonsick/MyBuddy-Admin-Panel
 
 This repository exports into the Flutter app's Android project, where the resulting `unityLibrary` module is consumed by the host application.
 
